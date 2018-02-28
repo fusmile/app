@@ -1,0 +1,109 @@
+@media only screen and (min-width:400px ) {
+			html{font-size: 110px;}
+		}
+@media (min-width:360px ) {
+			html{font-size: 100px;}
+		}
+@media (min-width:320px ) {
+			html{font-size: 90px;}
+		}		
+		html,body{width: 100%;height: 100%;}
+		body{max-width: 640px;position: relative;margin: 0 auto;color: #3e3e3e;background: #f4f4f4;font-weight: normal;font: 0.12rem/1.5 "Hiragino Sans GB", STFangsong, "Microsoft YaHei", Helvetica, STXihei, Arial, serif}
+		/***********外容器**********/
+		.main_cart{background: white;}
+		.container{position: relative;min-height: 100%;width: 100%;}
+		
+				/*********top*******/
+.main_cart .main .no_content{height: 2.2rem;text-align: center;position: relative;}
+.main_cart .main .no_content img{height: .76rem;width: .76rem;position: absolute;top: .6rem;left: 50%;margin-left: -0.42rem;}
+.main_cart .main .no_content p{width: 100%;font-size: .1rem;position: absolute;top: 1.5rem;color: #9c9c9c;}
+	
+				/********recommend********/
+		.recommend{margin-top: 0.12rem;}
+		.clear_fix:after{content: "";clear: both;display: block;visibility: hidden;height: 0;line-height: 0;}
+		.division{border-top: 1px solid #D1C6AF;padding: 0.12rem;text-align: center;margin: 0 .16rem;color: #ff4001;}
+		.division h2{font-size: .13rem;text-align: center;}
+		.division h3{font-size: .1rem;margin-top: .03rem;}
+		.recommend ul{margin: 0 .16rem;}
+		.recommend ul li{width: 48%;}
+		.recommend .item_info{padding: 0.08rem 0 .12rem;}
+		.recommend .item_info h2{height: 0.16rem;line-height: 0.16rem;font-size: 0.11rem;}
+		.recommend .item_info h3{margin-top:0.02rem; font-size: 0.1rem;}
+		.recommend li:nth-of-type(odd){float: left;}
+		.recommend li:nth-of-type(even){float: right;}
+		.recommend li .item_info{position: relative;padding: 0.08rem 0 0.12rem;}
+		.recommend li .item_info .add_cart {position: absolute;width: 0.2rem;height: 0.2rem;right: 0;top: .08rem;}
+		.recommend li .item_info .add_cart:before {content: '';position: absolute;width: 0.2rem; height: 0.2rem;background: url(../img/icons.png) no-repeat center;background-size: 2rem 2rem;top: 50%;margin-top: -0.1rem;background-position: -1.2rem -0.2rem;left: 50%;margin-left: -0.1rem;}
+			
+		/**********底部***********/
+		.global_fix_bottom { height: .54rem;background: transparent;}
+		.flex{display: flex;}
+		
+.global_fix_bottom .footer_wrap {
+  position: fixed;
+  height: .54rem;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background: #ffffff;
+  border-top: 1px solid #d1c6af;
+}
+.nav_footer {
+  font-size: .12rem;
+  color: #a38d6b;
+  text-align: center;
+}
+.flex{display: flex;}
+.nav_footer a {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: .28rem;
+}
+.flex_item{display: block;flex: 1;}
+.nav_footer a.active {
+  color: #ff4001;
+}
+.nav_footer a:before {
+  content: '';
+  position: absolute;
+  width: 0.16rem;
+  height: 0.16rem;
+  background: url("../img/main_nav.png") no-repeat center;
+  -webkit-background-size: 0.32rem 0.8rem;
+  background-size: 0.32rem 0.8rem;
+  left: 50%;
+  margin-left: -0.08rem;
+  top: .08rem;
+}
+.nav_footer a:nth-of-type(1):before {
+  background-position: 0 0;
+}
+.nav_footer a:nth-of-type(1).active:before {
+  background-position: -0.16rem 0;
+}
+.nav_footer a:nth-of-type(2):before {
+  background-position: 0 -0.16rem;
+}
+.nav_footer a:nth-of-type(2).active:before {
+  background-position: -0.16rem -0.16rem;
+}
+.nav_footer a:nth-of-type(3):before {
+  background-position: 0 -0.32rem;
+}
+.nav_footer a:nth-of-type(3).active:before {
+  background-position: -0.16rem -0.32rem;
+}
+.nav_footer a:nth-of-type(4):before {
+  background-position: 0 -0.48rem;
+}
+.nav_footer a:nth-of-type(4).active:before {
+  background-position: -0.16rem -0.48rem;
+}
+.nav_footer a:nth-of-type(5):before {
+  background-position: 0 -0.64rem;
+}
+.nav_footer a:nth-of-type(5).active:before {
+  background-position: -0.16rem -0.64rem;
+}

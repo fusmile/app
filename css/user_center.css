@@ -1,0 +1,65 @@
+@media only screen and (min-width:400px ) {
+	html{font-size: 110px;}
+}
+@media only screen and (min-width:360px ) {
+	html{font-size: 100px;}
+}
+@media (min-width:320px ) {
+	html{font-size: 90px;}
+}		
+html,body{width: 100%;height: 100%;}
+body{background: white;color: #4a4a4a;font-size:0.12rem;}
+
+/********内容*******/
+.ucenter-main{margin-top: 0;padding-bottom: 1rem;}
+.main{position: relative;z-index: 10;width: 100%;height: 100%;}
+.main .user-msg{height: 1.06rem;border-bottom: 1px solid #d1c6af;}
+.main .user-msg .inner{padding-top: 0.24rem;padding-left: 5%;width: 100%;height: 100%;}
+.main .user-msg .inner div{float: left;}
+.main .user-msg .inner .img{height: 0.55rem;width: 0.55rem;border-radius: 50%;background: #F9F9F9;margin: 0.05rem 0;}
+.main .user-msg .inner img{width: 0.55rem;height: 0.55rem;}
+.main .user-msg .inner .info{margin: 0.2rem 0.2rem;}
+.main .user-msg .inner button{background: #A38D6B;color: white;height: 0.24rem;width: 0.6rem;border: 0;font-size: 0.12rem;border-radius: 0.02rem;}
+
+		/********order-msg********/
+.main .order-msg{margin-bottom: 0.1rem;border-bottom: 1px solid #D1C6AF;position: relative;}
+.main .order-msg:after{content: "";width: .12rem;height: .12rem;background: white;position: absolute;left: 60%;top: 50%;transform: translate(-50%,-50%) rotate(45deg);}
+.main .order-msg ul li{float: left;height: 0.72rem;text-align: center;padding-top:0.4rem ;width: 20%;color: #444;position: relative;}
+.main .order-msg ul li.my-orders{width: 40%;background: #F9F9F9;}
+.main .order-msg ul li:before{content: "";width: .16rem;height: .16rem;background: url(../img/ucenter_icons.png) no-repeat;background-size: .16rem 1.28rem;position: absolute;top: .2rem;left: 50%;margin-left: -0.08rem;}
+.main .order-msg ul li:nth-of-type(1):before{background-position:left top;}
+.main .order-msg ul li:nth-of-type(2):before{background-position:left -.16rem;}
+.main .order-msg ul li:nth-of-type(3):before{background-position:left -.32rem;}
+.main .order-msg ul li:nth-of-type(4):before{background-position:left -.48rem;}
+
+		/**********list********/
+.main .list ul li{height: 0.45rem;line-height: 0.45rem;padding-left: 0.16rem;position: relative;}
+.main .list ul li:after{content: "";width: .08rem;height: .13rem;background: url(../img/arrow.png) no-repeat;background-size: .08rem .13rem;position: absolute;right: .16rem;top: 50%;margin-top: -.07rem;}
+.main .list ul li a{color: #444;display: block;height: 100%;width: 100%;position: relative;}
+
+.main .list ul li .nav-pa{padding-left: 0.24rem;}
+.main .list ul li .nav-pa:before{content: "";height: .16rem;width: .16rem;background: url(../img/ucenter_icons.png) no-repeat;background-size: .16rem 1.28rem;position: absolute;left: 0;top: .14rem;}
+.main .list ul li .nav-card:before{background-position: left -.8rem;}
+.main .list ul li .nav-le:before{background-position: left -.96rem;}
+.main .list hr{border-top: 1px solid #D1C6AF;height: 0;}
+hr{border: 0;}	
+
+
+		/*******hotline*********/	
+.main .hotline{text-align: center;margin: 0;position: absolute;left: 0;bottom: .8rem;width: 100%;height: .2rem;line-height: .2rem;color: #444;}	
+.main .hotline a{position: relative;padding-left: .18rem;}
+.main .hotline a:before{content: "";height: .16rem;width: .16rem;position: absolute;background: url(../img/ucenter_icons.png) no-repeat left -1.12rem;background-size: 0.16rem 1.28rem;left: 0;}
+
+
+/********底部********/
+.footer-nav{border-top: 1px solid #D1C6AF;width: 100%;height: 0.54rem;background: white;z-index: 100;position: fixed;left: 0;bottom: 0;}
+.footer-nav .footer-menu{display: flex;width: 100%;}
+
+.footer-nav .footer-menu a{display: block;padding: 0.26rem 0 .05rem;color: #A38D6B;flex: 1;text-align: center;line-height: 0.24rem;position: relative;}
+.footer-nav .footer-menu .active{color: #FF4001;}
+.footer-nav .footer-menu a:before{content: "";display: block;height: 0.16rem;width: 0.16rem;background: url(../img/main_nav.png);background-size: 0.32rem 0.8rem;position: absolute;top: .08rem;left: 50%;margin-left: -0.08rem;}
+
+.footer-nav .footer-menu .nav-cake:before{background-position: left -0.16rem;}
+.footer-nav .footer-menu .nav-gift:before{background-position: left -0.32rem;}
+.footer-nav .footer-menu .nav-cart:before{background-position: left -0.48rem;}
+.footer-nav .footer-menu .nav-ucenter:before{background-position: -0.16rem -0.64rem;}
